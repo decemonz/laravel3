@@ -1,0 +1,91 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: relative;
+}
+.title-container >h1{
+  border-bottom: 1px solid silver;
+}
+.post-user{
+  line-height: 60px;
+}
+.files >input{
+  display: none;
+}
+#app > ul{
+  padding: 0;
+  margin: 0;
+}
+#app > ul >li{
+  display: none;
+}
+.wall{
+  list-style: none;
+  width: 100%;
+  height: 500px;
+  background-image: url(/images/024.jpg);
+  position:relative;
+}
+.wall2{
+  list-style: none;
+  width: 100%;
+  height: 500px;
+  background-image: url(/images/NB-2016.08.24-DIIV-2.jpg);
+  position:relative;
+}
+footer{
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-color: silver;
+  color: white;
+  z-index: 1;
+}
+.list{
+  width: 300px;
+  margin: 0 auto;
+}
+.list > ul{
+  text-align: center;
+  list-style: none;
+}
+.pagi{
+  width: 140px;
+  margin: 0 auto;
+}
+.pagi > ul > li >a{
+  color: black
+}
+.page-item {
+background-color: black;
+}
+.wall-text > h1{
+  color: white;
+  position: absolute;
+  bottom: 190px;
+  left: 60px;
+}
+.wall-text >p{
+  font-family: 'Sawarabi Mincho', sans-serif;
+  color: white;
+  position: absolute;
+  bottom: 90px;
+  left: 50px;
+}
+footer > img{
+  position: absolute;
+  top: 50px;
+}
+.pagetop{
+ position: fixed;
+ z-index: 100;
+ right: 40px;
+ bottom: 15px;
+ cursor: pointer;
+}
+.far{
+  color:orange;
+}
+.image > img{
+  box-shadow: 2px 2px 4px;
+}
